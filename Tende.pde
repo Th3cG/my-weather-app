@@ -219,7 +219,7 @@ void draw() {
 
 //-----------------------htmlWorkaround() >> "aggira" l'errore 403-----------------------
 void htmlWorkaround() {
-  String[] weatherURLs = {"https://www.meteo.it/meteo/turi-oggi-72047", "https://www.meteo.it/meteo/turi-domani-72047", "https://www.meteo.it/meteo/turi-2-giorni-72047"};
+  String[] weatherURLs = {"WEATHERWEBSITE.TODAY", "WEATHERWEBSITE.TOMORROW", "WEATHERWEBSITE.DAYAFTERTOMORROW"};
 
   for (int i = 0; i < weatherURLs.length; i++) {
     URL url;
